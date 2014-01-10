@@ -20,7 +20,10 @@ Before using this plugin, you must ensure that `lua` (which includes `luac`) is 
 
 1. On Windows, you can install with [Lua for Windows](https://code.google.com/p/luaforwindows/).
 
-Once `lua` is installed, you can proceed to install the SublimeLinter-lua plugin if it is not yet installed.
+### Linter configuration
+In order for `luac` to be executed by SublimeLinter, you must ensure that its path is available to SublimeLinter. Before going any further, please read and follow the steps in [“Finding a linter executable”](http://sublimelinter.readthedocs.org/en/latest/troubleshooting.html#finding-a-linter-executable) through “Validating your PATH” in the documentation.
+
+Once `luac` is installed and configured, you can proceed to install the SublimeLinter-luac plugin if it is not yet installed.
 
 ### Plugin installation
 Please use [Package Control](https://sublime.wbond.net/installation) to install the linter plugin. This will ensure that the plugin will be updated when new versions are available. If you want to install from source so you can modify the source code, you probably know what you are doing so we won’t cover that here.
