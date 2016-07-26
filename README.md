@@ -13,7 +13,7 @@ Before using this plugin, you must ensure that `lua` (which includes `luac`) is 
 
 1. Install a binary from the [binaries downloads page](http://luabinaries.sourceforge.net).
 
-1. On Mac OS X, use [homebrew](brew.sh) to install by typing the following in a terminal:
+1. On Mac OS X, use [homebrew](http://brew.sh) to install by typing the following in a terminal:
    ```
    brew install lua
    ```
