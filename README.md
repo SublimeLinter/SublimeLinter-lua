@@ -20,7 +20,7 @@ Before using this plugin, you must ensure that `lua` (which includes `luac`) is 
 
    Note that more recent versions of lua may be available via `brew`, type `brew search lua` to check.
 
-1. On Windows, you can install with [Lua for Windows](https://code.google.com/p/luaforwindows/).
+1. On Windows, you can install with [Lua for Windows](https://github.com/rjpcomputing/luaforwindows).
 
 ### Linter configuration
 In order for `luac` to be executed by SublimeLinter, you must ensure that its path is available to SublimeLinter. Before going any further, please read and follow the steps in [“Finding a linter executable”](http://sublimelinter.readthedocs.org/en/latest/troubleshooting.html#finding-a-linter-executable) through “Validating your PATH” in the documentation.
